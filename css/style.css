@@ -1,0 +1,215 @@
+@font-face
+{
+    font-family: myFont;
+    src: url('../fonts/FrutigerLTArabic.ttf')
+}
+
+*
+{
+	font-family: myFont;
+}
+
+#nav
+{
+	background-color: #CEC2B2;
+	padding: 5px;
+}
+
+#logo
+{
+	width: 140px; 
+	height: 40px; 
+	margin-top: -8px;"
+}
+
+#navbar a
+{
+	font-size: 17px;
+	margin: 0px;
+	color: #5D5A56;
+}
+
+#navbar a:hover
+{
+	color: #333333;
+}
+
+.jumbotron
+{
+	margin:0px;
+	height: 659px;
+	width: 100%;
+  	background-image: url("../images/jumbotron.png");
+  	background-size: 100% 100%;
+}
+
+#jumbotron-header
+{
+	text-align: right;
+  	color: white;
+  	margin-top: 130px;
+}
+
+#jumbotron-header h1
+{
+	font-size: 55px;
+}
+
+#jumbotron-header a
+{
+	margin-top: 30px;
+	border-style: none;
+	border-radius: 37px;
+	background-color: #F9CC46;
+	width: 200px;
+	height: 55px;
+	font-size: 23px;
+	color: #333333;
+}
+
+#jumbotron-header a:hover
+{
+	border:1px solid #333333;
+	box-shadow: 0px 0.5px 10px #A18533;
+}
+
+#movie-header
+{
+	text-align: center;
+	font-size: 60px;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	padding:0px;
+}
+
+#movie-post img
+{
+	width: 100%;
+	height: 206px;
+	margin:0px;
+}
+
+#movie-post img:hover
+{
+	border: 1px solid #E9E5DE;
+	box-shadow: 0px 5px 18px #E9E5DE;
+}
+
+#movie-post h4
+{
+	margin-top: 10px;
+	margin-bottom: 25px;
+	text-align: right;
+}
+
+.time-span
+{
+	position: absolute;
+	margin-top: -35px;
+	margin-left: 10px;
+	color: white;
+	background-color: #333333;
+	opacity: 74%;
+	padding: 1px 12px 1px 12px;
+	border-radius: 7px;
+}
+
+.footer
+{
+	margin-top: 50px;
+	background-color: #CEC2B2;
+    padding-top: 60px;
+    padding-right: 0px;
+    margin-right: 0px;
+    text-align: right;
+}
+
+.subfooter
+{
+    background-color: #CEC2B2;
+    color: #333333;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#social
+{
+	text-align: left;
+	padding: 10px 35px;
+}
+
+#social a,i
+{
+	color: #333333;
+	padding: 6px;
+
+}
+
+ul li
+{
+	margin-top: 6px;
+}
+
+ul li a 
+{
+	font-size: 15px;
+	color: #5D5A56;
+}
+
+ul li a:hover
+{
+	color: #333333;
+	text-decoration: none;
+}
+
+#footer-img
+{
+	width: 260px;
+	height: 80px;
+}
+
+.footer-title
+{
+	color: #333333;
+	font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+	.jumbotron
+	{
+		height: 350px;
+		width: auto;
+	}
+	#jumbotron-header
+	{
+	  	margin-top: 85px;
+	}
+    #jumbotron-header h1
+	{
+		font-size: 22px;
+	}
+
+	#jumbotron-header a
+	{
+		width: 90px;
+		height: 30px;
+		font-size: 11px;
+		margin-top: 8px;
+	}
+
+	#movie-header
+	{
+		font-size: 50px;
+	}
+
+	#footer-small
+	{
+		margin-left: 100px;
+	}
+
+	.footer
+	{
+		text-align: center;
+	}
+}
